@@ -1,0 +1,14 @@
+@media(max-width: 375px){
+    aside{
+        width: 19.375rem;
+        height: 14.688rem;
+    }
+
+    .sem_vaga_adicionada{
+        width: 16.875rem;
+    }
+
+    .container_vaga_selecionada{
+        padding: 1.25rem;
+    }
+}

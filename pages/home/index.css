@@ -1,1 +1,56 @@
-/* Desenvolva sua estilização aqui... */
+.imagem_mobile{
+    display: none;
+}
+
+.imagem_mulheres {
+    width: 100vw;
+    height: auto;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -2;
+    
+}
+
+.imagem_logo{
+    position: relative;
+    top: -1.25rem;
+}
+    
+.titulo_principal {
+    font-size: var(--title-2);
+    margin-top: 1.563rem;
+    margin-bottom: 3.125rem;
+    color: var(--color-grey-3);
+}
+
+.descricao_principal {
+    margin-bottom: 1.875rem;
+    font-size: var(--text-1);
+}
+
+.texto_h5{
+    font-size: var(--text-2);  
+}
+
+.titulo_vaga{
+    font-size: var(--title-4);
+    color: var(--color-grey-1);
+}
+
+.empresa,
+.cidade{
+    font-size: var(--text-3);
+}
+
+.descricao_vaga{
+    font-size: var(--text-2);
+}
+
+.color_grey5{
+    color: var(--color-grey-5);
+}
+
+.color_grey2{
+    color: var(--color-grey-2);
+}

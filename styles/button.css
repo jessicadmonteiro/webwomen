@@ -1,0 +1,48 @@
+.bt_borda{
+    border-radius: var(--radius-default);
+    border: transparent;
+}
+.bt_cor{
+    color: var(--color-grey-6);
+    background-color: var(--color-brand-1);
+}
+
+.bt_sacao_vagas{
+    position: absolute;
+    top: 18.75rem;
+    width: 18.125rem;
+    height: 3rem;
+}
+
+.bt_home{
+    font-size: var(--text-3);
+    color: var(--color-grey-2); 
+    width: 6.938rem;
+    height: 1.875rem;
+    background: var(--color-grey-3); 
+}
+
+.bt_candidatar{
+    width: 9.375rem;
+    height: 2.375rem;
+}
+
+.bt_lixeira{
+    width: 2.5rem;
+    height: 2.063rem;
+    border: transparent;
+    border-radius: 8px;
+    background-color: var(--color-grey-5);
+    background-image: url("/assets/img/trash.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bt_lixeira:hover{
+    background-color: var(--color-grey-3);
+}
+
+.bt_lixeira > img{
+    width: 0.6rem;
+    height: 0.6rem;
+}

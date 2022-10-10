@@ -1,0 +1,86 @@
+@media(max-width: 375px){
+
+    .imagem_mulheres,
+    .container_imagem_fundo{
+        display: none;
+    }
+
+    .container_imagem_fundo_mobile{
+        width: 23.43rem;
+        height: 40.62rem;
+        position: absolute;
+        background-color: var(--opacity-1);
+    }
+
+    .imagem_mobile{
+        width: 23.43rem;
+        display: block;
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: -2;
+    }
+    
+    .container_header{
+        margin-top: -100px;
+    }
+
+    
+    .container{
+        width: 23.43rem;
+    }
+
+    .imagem_logo{
+        width: 10.62rem;
+    }
+
+   .titulo_principal {
+    width: 16.87rem;
+    font-size:var(--title-3);
+    margin-top: 0;
+   }
+
+   .descricao_principal,
+   .texto_h5{
+    width: 16.87rem;
+    font-size: var(--text-1)
+   }
+
+   .bt_sacao_vagas {
+    top: 25rem; 
+   }
+
+   .container_background{
+    width: 100vw;
+    height: 137.5rem;
+   }
+
+   .container_vagas_selecionarVagas{
+    display: block;
+   }
+
+   .container_descricao_vaga{
+    width: 19.37rem;
+    height: 28.12rem;
+   }
+   
+   .titulo_vaga{
+    font-size: 1.375rem;
+   }
+
+   .descricao_vaga{
+    width: 16.87rem;
+   }
+
+   .container_bt_homeOff_Candidatar{
+    display: flex;
+    flex-direction: column;
+   }
+
+   .bt_candidatar{
+    width: 16.75rem;
+    margin-top: 1.87rem;
+   }
+
+
+}

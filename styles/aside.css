@@ -1,0 +1,81 @@
+aside{
+    width: 23rem;
+    height: 13.75rem;
+    position: sticky;
+    top: 0.625rem;
+    background: var(--color-grey-6);
+    border-radius: var(--radius-default);
+    padding: 0.938rem;
+    margin-top: 3.75rem;
+}
+
+.titulo_aside{
+    color: var(--color-grey-1);
+    font-size: var(--title-4);
+
+}
+
+.texto_sem_vaga_adicionada{
+    font-size: var(--text-3);
+    color: var(--color-grey-2);
+    margin-top: 1.875rem;
+}
+
+
+.container_vaga_selecionada{
+    background: var(--color-grey-6);
+    border-bottom: 2px solid var(--color-grey-5);
+    padding: 0.625rem ;
+    margin: 0 -0.938rem;
+}
+
+.container_vaga_selecionada:hover{
+    background-color: var(--color-grey-4);
+}
+
+.container_titulo_btLixeira{
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 0.625rem;
+}
+
+.titulo_vaga_selecionada{
+    font-size: var(--text-2);
+    color: var(--color-grey-1);
+}
+
+.empresa_selecionada,
+.cidade_selecionada{
+    font-size: var(--text-3);
+    color: var(--color-grey-2);
+}
+.simulando_conteudo{
+    height: 1rem;
+    background: var(--color-grey-5);
+    border-radius: 2rem;
+    margin-top: 0.625rem;
+}
+
+.simulando_conteudo1{
+    width: 9.313rem;
+    margin-top: 1.875rem;
+}
+
+.simulando_conteudo2{
+    width: 16.688rem;
+}
+
+.container_simulando_conteudo{
+    display: flex;
+    gap: 1.25rem;
+}
+
+.simulando_conteudo3,
+.simulando_conteudo4{
+    width: 6.438rem;
+}
+
+.simulando_conteudo5{
+    width: 2.813rem;
+}

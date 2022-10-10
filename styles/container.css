@@ -1,0 +1,53 @@
+.height_container{
+    height: 40.62rem;
+}
+
+.container_imagem_fundo {
+    position: absolute;
+    width: 100vw;
+    background-color: var(--opacity-1);
+    
+} 
+
+.container_header {
+    width: 100%;
+    position: relative;
+    top: 9.375rem;
+}
+
+.container_background {
+    width: 100vw;
+    background-color: var(--color-grey-5);
+}
+
+.container_vagas_selecionarVagas{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.625rem;
+}
+
+.container_vagas{
+    margin-top: 1.563rem;
+    margin-bottom: 0.625rem;
+}
+
+.container_descricao_vaga{
+    width: 47.813rem;
+    height: 16.25rem;
+    background: var(--color-grey-6);
+    border-radius: var(--radius-default);
+    padding: 0.938rem;
+    margin-bottom: 1.875rem;
+}
+
+.container_empresa_cidade {
+    display: flex;
+    gap: 1.875rem;
+    margin: 1.25rem 0;
+}
+
+.container_bt_homeOff_Candidatar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.563rem;
+}
